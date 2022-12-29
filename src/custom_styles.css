@@ -1,0 +1,93 @@
+:root {
+    --textColor: #303030;
+    --bgColor: #fff;
+}
+
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--textColor);
+    background-color: var(--bgColor);
+}
+
+#root,
+.App {
+    width: 100%;
+}
+
+header {
+    margin-top: 1em;
+    margin-bottom: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin-bottom: 1em;
+}
+
+header button.history,
+header button.theme {
+    margin-right: 1em;
+    font-size: 0.8em;
+    padding: 0.2em 0.5em;
+}
+
+main {
+    margin-bottom: 2em;
+}
+
+h1 {
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 1em;
+}
+
+.btn {
+    color: var(--textColor);
+    background-color: var(--bgColor);
+    border-color: var(--textColor);
+}
+
+a,
+a:hover {
+    color: var(--textColor);
+}
+
+.row {
+    margin-bottom: 1em;
+}
+
+.contact-form-container,
+.contact-list-container {
+    margin-bottom: 2em;
+}
+
+.contact-list-headings {
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.onclick-sort:hover {
+    cursor: pointer;
+}
+
+.edit-contactinfo button {
+    margin-right: 1em;
+}
+
+footer {
+    border-top: 1px solid var(--textColor);
+    padding-top: 1em;
+    text-align: center;
+    margin-bottom: 1em;
+}
