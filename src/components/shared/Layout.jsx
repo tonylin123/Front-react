@@ -27,9 +27,7 @@ function Layout({children}) {
             {children}
         </main>
 
-        <footer>
-            <span>&copy; Jenny Rigsjö</span>
-        </footer>
+        
     </>
     );
 }
