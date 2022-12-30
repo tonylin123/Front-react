@@ -6,8 +6,7 @@ import {NavLink} from "react-router-dom";
 
 function Navigation() {
 
-    const {user} = useContext(UserContext);
-    const {logout} = useContext(UserContext);
+    
     
     let activeLink = {
         fontWeight: "bold",
