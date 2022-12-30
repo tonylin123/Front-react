@@ -6,7 +6,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 import {BrowserRouter} from "react-router-dom";
-import {UserProvider} from './services/UserContext';
+
 import {ContactsProvider} from './services/ContactsContext';
 import { CountriesProvider } from './services/CountriesContext';
 import {CitiesProvider} from './services/CitiesContext';
@@ -15,7 +15,7 @@ import {LanguagesProvider} from './services/LanguagesContext';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
-    <UserProvider>
+    
       <CountriesProvider>
         <CitiesProvider>
           <LanguagesProvider>
@@ -25,7 +25,7 @@ root.render(
           </LanguagesProvider>
         </CitiesProvider>
       </CountriesProvider>
-    </UserProvider>
+    
   </BrowserRouter>
 );
 

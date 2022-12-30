@@ -1,7 +1,7 @@
 import {useState, useEffect, useContext} from "react";
 import {Navigate, useNavigate, useParams} from 'react-router-dom';
 import {ContactsContext}  from '../services/ContactsContext';
-import {UserContext}  from '../services/UserContext';
+
 
 import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
@@ -13,7 +13,7 @@ import SelectLanguages from '../components/shared/SelectLanguages';
 
 function Profile() {
 
-    const {user} = useContext(UserContext);
+    
 
     const {getContact} = useContext(ContactsContext);
     const {updateContact} = useContext(ContactsContext);
@@ -77,10 +77,7 @@ function Profile() {
         navigate("/contacts");
     }
 
-    if (user.auth === false) 
-    {
-        return (<Navigate to="/login"/>);
-    }
+   
 
     return (
         <>
