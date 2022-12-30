@@ -21,6 +21,7 @@ export default function ContactList() {
     : <Container className="container contact-list">
         <Row className="row contact-list-headings">
             <Col className="contact-list-heading onclick-sort" onClick={sortContacts} title="Sort">Name</Col>
+            <Col className="contact-list-heading">Phone</Col>
             <Col className="contact-list-heading">Action</Col>
         </Row>
         {contacts.map((contact) => (<ContactListItem contact={contact} contactID={contact.id} key={contact.id}/>))}

@@ -91,3 +91,7 @@ footer {
     text-align: center;
     margin-bottom: 1em;
 }
+
+.ContactListItem button{
+    color: rgb(160, 24, 24);
+}

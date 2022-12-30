@@ -95,31 +95,7 @@ function Profile() {
                 <Button variant="primary" type="button" onClick={() => handleDeleteContact(id)}>Delete</Button>
             </p>
         </div>
-        {/* <div style={editMode}>
-            <Form className="edit-contactinfo" onSubmit={handleSubmit}>
-                <Row>
-                    <Col>
-                        <Form.Control type="hidden" name="name" value={id} readOnly/>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col>
-                        <Form.Control type="text" name="name" placeholder="Full name" value={contactInfo.name} onChange={handleChange} required/>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col>
-                        <Form.Control type="text" name="phone" placeholder="Phone number" value={contactInfo.phone} onChange={handleChange} required/>
-                    </Col>
-                </Row>
-
-                <SelectCountryAndCity contactInfo={contactInfo} setContactInfo={setContactInfo}/>
-                <SelectLanguages contactInfo={contactInfo} setContactInfo={setContactInfo}/>
-                
-                <Button variant="primary" type="submit">Update</Button>
-                <Button variant="warning" type="button" onClick={handleCancelEdit}>Cancel</Button>
-            </Form>
-        </div> */}
+        
         </>
     );
 }
