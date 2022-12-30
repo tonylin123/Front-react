@@ -81,7 +81,7 @@ function Profile() {
 
     return (
         <>
-        <h2>Contact details for {contactInfo.name}</h2>
+        <h2>People details for {contactInfo.name}</h2>
         <div className="view-contactinfo" style={viewMode}>
             <p className="name"><b>Name:</b> {contactInfo.name}</p>
             <p className="phone"><b>Phone:</b> {contactInfo.phone}</p>

@@ -29,7 +29,7 @@ export default function ContactList() {
 
     return (
         <div className="contact-list-container">
-            <h2>Contact List</h2>
+            <h2>People List</h2>
             {listItems}
         </div>
     );

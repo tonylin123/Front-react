@@ -1,4 +1,4 @@
-import {useContext} from "react";
+
 
 
 import Nav from 'react-bootstrap/Nav';
@@ -9,6 +9,7 @@ function Navigation() {
     
     
     let activeLink = {
+        
         fontWeight: "bold",
         textDecoration: "none",
     };
@@ -22,7 +23,7 @@ function Navigation() {
         return (
             <Nav>
                 <NavLink to="home" style={({ isActive }) => isActive ? activeLink : inactiveLink}>Home</NavLink>
-                <NavLink to="contacts" style={({ isActive }) => isActive ? activeLink : inactiveLink}>Contacts</NavLink>
+                <NavLink to="contacts" style={({ isActive }) => isActive ? activeLink : inactiveLink}>People</NavLink>
                 
             </Nav>
         );

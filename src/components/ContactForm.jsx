@@ -32,7 +32,7 @@ export default function ContactForm() {
     return (
       <div className="contact-form-container">
 
-        <h2>Add Contact</h2>
+        <h2>Add People</h2>
 
         <Form className="contact-form" onSubmit={handleSubmit}>
             <Row>

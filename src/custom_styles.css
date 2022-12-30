@@ -26,16 +26,16 @@ header {
 }
 
 header .nav {
+    font-size: 20px;
     display: flex;
     flex-wrap: wrap;
-    gap: 1em;
+    gap: 3em;
     margin-bottom: 1em;
 }
 
-header button.history,
-header button.theme {
+header button.history{
     margin-right: 1em;
-    font-size: 0.8em;
+    font-size: 1em;
     padding: 0.2em 0.5em;
 }
 
@@ -44,6 +44,9 @@ main {
 }
 
 h1 {
+    padding: 1px;
+    font-style: italic;
+    font-size: 40px;
     margin-bottom: 1em;
     text-align: center;
 }
@@ -60,19 +63,30 @@ h2 {
 
 a,
 a:hover {
+    
     color: var(--textColor);
 }
 
 .row {
+    
     margin-bottom: 1em;
 }
 
-.contact-form-container,
+
 .contact-list-container {
+    width: 1000px;
+    padding: 1px;
     margin-bottom: 2em;
 }
 
+
+button.btn.btn-danger{
+    color: #fff;
+    background-color: rgb(160, 24, 24);
+}
+
 .contact-list-headings {
+    
     font-weight: bold;
     margin-bottom: 0.5em;
 }
@@ -82,16 +96,13 @@ a:hover {
 }
 
 .edit-contactinfo button {
+    
     margin-right: 1em;
 }
 
-footer {
-    border-top: 1px solid var(--textColor);
-    padding-top: 1em;
-    text-align: center;
-    margin-bottom: 1em;
-}
+div.col.input.form-control{
 
-.ContactListItem button{
-    color: rgb(160, 24, 24);
+
+    
+    border-style: solid;
 }

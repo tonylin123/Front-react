@@ -5,7 +5,7 @@ import {Routes, Route} from "react-router-dom";
 
 import Layout from "./components/shared/Layout";
 import Home from "./pages/Home";
-import People from "./pages/PeopleList";
+import Contacts from "./pages/Contacts";
 import Profile from './pages/Profile';
 
 //import Logout from "./pages/Logout";
@@ -19,7 +19,7 @@ function App() {
         <Routes>
           <Route path="/" element={ <Home/> } />
           <Route path="home" element={ <Home/> } />
-          <Route path="contacts" element={ <People/> } />
+          <Route path="contacts" element={ <Contacts/> } />
           <Route path="contacts/:id" element={<Profile/>} />
           
           <Route path="*" element={<PageNotFound />} />

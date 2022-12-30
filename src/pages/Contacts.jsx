@@ -1,16 +1,14 @@
-import {useContext} from "react";
 
-import {Navigate} from "react-router-dom";
 
 import ContactForm from '../components/ContactForm';
 import ContactList from "../components/ContactList";
 
-function Contacts() {
+function People() {
 
    
         return (
             <>
-                <h1>Contacts</h1>
+                <h1>PeopleList</h1>
                 <ContactList/>
                 <ContactForm/>
             </>
@@ -19,4 +17,4 @@ function Contacts() {
 
 }
 
-export default Contacts;
+export default People;
